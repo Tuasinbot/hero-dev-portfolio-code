@@ -7,7 +7,7 @@
 .btn {
     background-color: #FD6E0A;
     border: none;
-    padding: 18px 35px 19px 36px;
+    padding: 18px 35px;
     border-radius: 5px;
     font-size: 20px;
     font-weight: bold;
@@ -40,6 +40,9 @@
 }
 .color-orange{
     color: #FD6E0A;
+}
+.text-center {
+    text-align: center;
 }
 /* main-style */
 header{
@@ -102,9 +105,8 @@ margin-bottom: 5px;
     max-width: 584px;
     vertical-align: middle;
 }
-#about{
-    padding-top: 130px;
-}
+
+
 #about .about-container {
     width: 71%;
     max-width: 1140px;
@@ -127,13 +129,13 @@ margin-bottom: 5px;
     line-height: 30px;
     font-weight: bold;
 }
-#skills {
+#skills ,#about ,#resume {
     padding-top: 130px;
 }
 #skills .skills-container {
     width: 71%;
     max-width: 1140px;
-    margin: 0 auto;
+    margin: 0 auto;}
  .skill-box {
     display: flex;
     gap: 24px;
@@ -159,3 +161,53 @@ margin-bottom: 5px;
     line-height: 28px;
     color: #757575;
  }
+  #resume .resume-container {
+    width: 71%;
+    max-width: 1140px;
+    margin: 113px auto 0;
+    display: flex;
+    gap: 24px;}
+    #resume .resume-container hr {
+        margin: 30px 0;
+    }
+ .resume-container .section-title {
+    color: #474747;
+    font-size: 30px;
+    margin-bottom: 30px;
+ }
+ .resume-card {
+    max-width: 511px;
+    margin-right: 47px;
+ }
+ .resume-card .card-title {
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+    margin-bottom: 10px;  
+ }
+ .resume-card .card-info {
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+    margin-bottom: 20px;
+ }
+ .resume-card .card-text {
+    font-size: 16;
+    color: #757575;
+     
+    line-height: 28px;
+ }
+.btn2 {
+    background-color: #FD6E0A;
+    border: none;
+    padding: 18px 35px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    max-width: 200px;
+    max-height:fit-content;
+    
+    margin: 0 auto;
+}
